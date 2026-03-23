@@ -2,9 +2,16 @@
 
 extern void unterprogramm();
 
+void aufgaben();
+
 extern void printHello(int wieOft);
 
 void main()
+{
+    aufgaben();
+}
+
+void main_mit_eingabe()
 {
     int n;
 
@@ -13,8 +20,6 @@ void main()
 
     printHello ( 8 );
 }
-
-
 
 void main_Hello_World()
 {

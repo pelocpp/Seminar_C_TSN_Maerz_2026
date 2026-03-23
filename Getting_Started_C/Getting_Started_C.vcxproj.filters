@@ -21,5 +21,8 @@
     <ClCompile Include="MeineUnterprogramme.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Aufgabe_01_Zinsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Aufgabe_01_Zinsen.c" />
     <ClCompile Include="MeineUnterprogramme.c" />
     <ClCompile Include="Program.c" />
   </ItemGroup>
