@@ -127,6 +127,9 @@
     <ClCompile Include="MeineUnterprogramme.c" />
     <ClCompile Include="Program.c" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Readme.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
