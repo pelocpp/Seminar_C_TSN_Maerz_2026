@@ -2,7 +2,7 @@
 
 ## Unterlagen
 
-Zu den Notizen geht es [hier](Notizen.txt).
+Zu den Notizen geht es [hier](Readme.txt).
 
 Weiter Unterlagen:
 
