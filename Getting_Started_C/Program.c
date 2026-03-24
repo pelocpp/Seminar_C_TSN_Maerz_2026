@@ -4,7 +4,7 @@
 
 void main()
 {
-    WirSpielenSchule();
+    strukturen();
 }
 
 void main_mit_eingabe()

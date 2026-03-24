@@ -6,3 +6,5 @@ extern void unterprogramm();
 
 extern void WirSpielenSchule();
 
+extern void strukturen();
+

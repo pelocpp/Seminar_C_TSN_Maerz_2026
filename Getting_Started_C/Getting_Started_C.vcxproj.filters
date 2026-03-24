@@ -33,6 +33,12 @@
     <ClCompile Include="MeineNoten.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Strukturen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WirSpielenLotto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Readme.md" />

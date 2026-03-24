@@ -70,5 +70,7 @@ void WirSpielenSchule()
 
     NotenEingebenReal();
     NotenAusgeben();
-    WEITER NACH DER PAUSE meineDurchschnittsNote();
+
+    double dNote = meineDurchschnittsNote();
+    printf("Durchschnittsnote: %.2f\n", dNote);
 }

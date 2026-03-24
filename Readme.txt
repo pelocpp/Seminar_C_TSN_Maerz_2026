@@ -418,12 +418,28 @@ double (float) / int
 
     Gleitpunkt Division
 
+=========================================================
 
+Feld: Viele Daten desselben Typs
 
+Struktur: Viele Daten unterschiedlichen Typs
 
+Beispiel:
 
+Schüler / ..in der TSN:
 
+- Vor/Nachname  // Zeichenketten in C
+- Durchschnittsnote
+- Adresse
+- Fehltage
 
+Uhrzeit:
+
+- Stunden
+- Minuten
+- Sekunden
+
+int uhrzeit [3];  // NO
 
 
 

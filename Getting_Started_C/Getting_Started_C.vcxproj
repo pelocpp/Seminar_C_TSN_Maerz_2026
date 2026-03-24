@@ -129,6 +129,8 @@
     <ClCompile Include="MeineNoten.c" />
     <ClCompile Include="MeineUnterprogramme.c" />
     <ClCompile Include="Program.c" />
+    <ClCompile Include="Strukturen.c" />
+    <ClCompile Include="WirSpielenLotto.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Readme.md" />
