@@ -1,14 +1,10 @@
-#include <stdio.h>  
+#include <stdio.h>   // Systemdateien 
 
-extern void unterprogramm();
-
-void aufgaben();
-
-extern void printHello(int wieOft);
+#include "Unterprogramme.h"  // selbst geschr. Dateien
 
 void main()
 {
-    aufgaben();
+    meineNoten();
 }
 
 void main_mit_eingabe()

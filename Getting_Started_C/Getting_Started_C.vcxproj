@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="Aufgabe_01_Zinsen.c" />
     <ClCompile Include="Aufgabe_02_Schaltjahr.c" />
+    <ClCompile Include="Felder.c" />
     <ClCompile Include="MeineUnterprogramme.c" />
     <ClCompile Include="Program.c" />
   </ItemGroup>
@@ -133,6 +134,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unterprogramme.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

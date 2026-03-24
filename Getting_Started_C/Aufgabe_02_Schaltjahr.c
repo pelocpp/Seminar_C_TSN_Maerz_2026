@@ -2,7 +2,7 @@
 
 int istSchaltjahr(int year)
 {
-    int result;
+    int result = 0;  // 0 falsch
 
     if (year % 4 == 0)
     {
@@ -50,7 +50,9 @@ static void aufgabe_Schaltjahr()
     int year;
 
     year = 1999;
-    result = istSchaltjahr(year);
+
+    result = istSchaltjahr(1999);
+
     printf("%d ist Schaltjahr: %d\n", year, result);
 
     year = 2000;

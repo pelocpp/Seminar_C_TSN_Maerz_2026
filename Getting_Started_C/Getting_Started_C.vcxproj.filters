@@ -27,11 +27,19 @@
     <ClCompile Include="Aufgabe_02_Schaltjahr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Felder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unterprogramme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

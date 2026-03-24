@@ -308,8 +308,41 @@ isLeapyear
 
 
 
+Frage: Sollte ich mit 400 anfangen ???
+
+Pessimization:  
 
 
+// ======================================================
+
+Arrays in C:
+
+ÄHNLICH zu Liste in Python.
+
+NICHT Dasselbe !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Was ist ein Array // Feld:
+
+Mehre Variablen desselben Typs.
+
+Beispiel:
+
+26 Noten
+
+Die kann man in einem Feld ablegen:
+
+int noten [ 26 ];
+
+UNTERSCHIED zu Python // Liste:
+
+Die 26 ist FIX !!!!!!!!!!!!!!!!!!!!!!!
+
+==============================================
+
+Kann man die Kopfzeilen für Unterprogramme
+nicht einfacher bekannt machen ???
+
+Mit speziellen Dateien:  Header-Datei.  // Endung: .h
 
 
 
