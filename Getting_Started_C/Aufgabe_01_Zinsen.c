@@ -4,8 +4,14 @@
 
 #include <stdio.h>
 
-void ZinsRechnung(double capital, double rate, int years)
+                // Stellvertreter
+void ZinsRechnung ( double capital, double rate, int years )
 {
+    if (years <= 0)
+    {
+        return;
+    }
+
     int year = 0;
 
     double newCapital = capital;
@@ -18,15 +24,17 @@ void ZinsRechnung(double capital, double rate, int years)
 
         printf("Jahr: %d: Kapital: %.2f\n", year, newCapital);
 
-        year = year + 1;
+        //year = year + 1;
+        year++;
     }
-
-    return year;
 }
 
 void aufgaben()
 {
-    ZinsRechnung(1000.0, 5.0, 10);
+    ZinsRechnung( 1000.0,  5.0,  10 );
+
+    ZinsRechnung( 100.0,  3.0, 10 );
+
 }
 
 
