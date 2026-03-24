@@ -4,7 +4,7 @@
 
 void main()
 {
-    strukturen();
+    lottoSpielen();
 }
 
 void main_mit_eingabe()
