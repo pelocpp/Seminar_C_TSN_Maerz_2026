@@ -382,8 +382,24 @@ B) Globale Variablen
 Alles außerhalb von Funktionen
 
 
+=======================================================
+
+AUfgabe:
+
+Unterprogramm:
+
+meineDurchschnittsNote
+
+ACHTUNG:
+
+Welchen Datentyp hat die Durchschnittsnote:
+
+2 , 3  ==> 2.5 float   / double
 
 
+Berechnen / In der Konsole ausgeben
+
+// NACHDEM die REAL berechneten Noten erzeugt worden sind.
 
 
 
