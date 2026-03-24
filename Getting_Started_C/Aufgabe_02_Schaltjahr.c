@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-static int isLeapLear(int year)
+int istSchaltjahr(int year)
 {
     int result;
 
@@ -50,22 +50,22 @@ static void aufgabe_Schaltjahr()
     int year;
 
     year = 1999;
-    result = isLeapLear(year);
+    result = istSchaltjahr(year);
     printf("%d ist Schaltjahr: %d\n", year, result);
 
     year = 2000;
-    result = isLeapLear(year);
+    result = istSchaltjahr(year);
     printf("%d ist Schaltjahr: %d\n", year, result);
 
     year = 2003;
-    result = isLeapLear(year);
+    result = istSchaltjahr(year);
     printf("%d ist Schaltjahr: %d\n", year, result);
 
     year = 2004;
-    result = isLeapLear(year);
+    result = istSchaltjahr(year);
     printf("%d ist Schaltjahr: %d\n", year, result);
 
     year = 2024;
-    result = isLeapLear(year);
+    result = istSchaltjahr(year);
     printf("%d ist Schaltjahr: %d\n", year, result);
 }
