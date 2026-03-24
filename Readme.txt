@@ -401,6 +401,23 @@ Berechnen / In der Konsole ausgeben
 
 // NACHDEM die REAL berechneten Noten erzeugt worden sind.
 
+=======================================================
+
+Die Division in C gibt es ZWEIMAL:
+
+int / int:    17 / 5  ====> 3  
+
+    ganzzahlige Division
+
+
+double (float) / double (float)
+int            / double (float)
+double (float) / int
+
+              17.0 / 5.0  ====> 3.4
+
+    Gleitpunkt Division
+
 
 
 

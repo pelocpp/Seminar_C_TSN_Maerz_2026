@@ -14,8 +14,8 @@ void NotenEingebenReal()
 {
     for (int i = 0; i < AnzahlNoten; i++) {
 
-        // int note = rand() % 6 + 1;
-        int note = rand();
+        int note = rand() % 6 + 1;
+        // int note = rand();
 
         printf("Ihre %d. Note: %d\n", i + 1, note);
 
@@ -35,6 +35,25 @@ void NotenEingeben()
     }
 }
 
+double meineDurchschnittsNote()
+{
+    int summe = 0;
+
+    for (int i = 0; i < AnzahlNoten; i++)
+    {
+        summe = summe + meineNoten[i];
+        // summe += meineNoten[i];
+    }
+
+    //  Typkonvertierung: summe (int) ==> double
+    //  ===> Umwandlungsoperation:  cast 
+
+    double average = (double) summe / AnzahlNoten;
+
+    return average;
+}
+
+
 void NotenAusgeben()
 {
     for (int i = 0; i < AnzahlNoten; i++)
@@ -51,4 +70,5 @@ void WirSpielenSchule()
 
     NotenEingebenReal();
     NotenAusgeben();
+    WEITER NACH DER PAUSE meineDurchschnittsNote();
 }
