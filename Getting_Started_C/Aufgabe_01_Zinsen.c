@@ -3,7 +3,6 @@
 // =====================================================================================
 
 #include <stdio.h>
-
                 // Stellvertreter
 void ZinsRechnung ( double capital, double rate, int years )
 {
@@ -29,11 +28,32 @@ void ZinsRechnung ( double capital, double rate, int years )
     }
 }
 
+// Unterprogramm MIT ERGEBNIS
+int Summe(int zahl1, int zahl2)
+{
+    int result;
+
+    result = zahl1 + zahl2;
+
+    return result;  // return VARIABLE
+}
+
+int SummeKuerzer(int zahl1, int zahl2)
+{
+    return zahl1 + zahl2;
+}
+
 void aufgaben()
 {
     ZinsRechnung( 1000.0,  5.0,  10 );
 
     ZinsRechnung( 100.0,  3.0, 10 );
+
+    int wert1 = 10;
+    int wert2 = 20;
+    int ergebnis = 0;
+
+    ergebnis = Summe(wert1, wert2);
 
 }
 

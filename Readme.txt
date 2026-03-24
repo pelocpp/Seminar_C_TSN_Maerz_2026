@@ -280,6 +280,33 @@ printf("%f")   // double !!!!!!!!!!!!!!
 
 
 
+Unterprogramm OHNE Ergebnis:  void
+
+Unterprogramm MIT Ergebnis:  void
+
+
+Schaltjahr:
+
+int year = 2026;
+
+Wann ist ein Jahr ein Schaltjahr ??????
+
+== Alle 4 Jahre
+== 1. Ausnahme: Wenn durch 100 teilbar: KEIN Schaltjahr (2000)
+== 2. Ausnahme: Wenn durch 400 teilbar: DOCH Schaltjahr (2000)
+
+
+int istSchaltjahr ( int year );
+
+0 == falsch
+1 == wahr
+
+Konvention // Vereinbarung
+
+
+isLeapyear
+
+
 
 
 
