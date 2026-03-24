@@ -1,11 +1,13 @@
 
 // 5 Noten
 
-#define AnzahlNoten   6
+#include <stdio.h>
 
-void meineNoten()
+#define AnzahlNoten   5
+
+void meineNotenAlt()
 {
-    int noten[AnzahlNoten];  // Platz für 5 Noten
+    int noten[AnzahlNoten] = { 0 };  // Platz für 5 Noten
 
     // erste Note eintragen
     int meineNoteInC = 4;
@@ -18,10 +20,12 @@ void meineNoten()
 
     // Ja, 3 Noten fehlen noch ....
 
-    // Ein Feld durchlaufen
-    for (  int i = 0;  i < AnzahlNoten ; )
+    // Ein Feld durchlaufen: 0 .. 4 in diesem Fall habe
+    for (  int i = 0;  i < AnzahlNoten ; i ++ )
     {
+        int note = noten[i];
 
+        printf("Note %d: %d\n", i + 1 , note);
     }
 }
 

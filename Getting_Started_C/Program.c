@@ -4,7 +4,7 @@
 
 void main()
 {
-    meineNoten();
+    WirSpielenSchule();
 }
 
 void main_mit_eingabe()

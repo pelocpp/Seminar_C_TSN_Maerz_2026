@@ -126,6 +126,7 @@
     <ClCompile Include="Aufgabe_01_Zinsen.c" />
     <ClCompile Include="Aufgabe_02_Schaltjahr.c" />
     <ClCompile Include="Felder.c" />
+    <ClCompile Include="MeineNoten.c" />
     <ClCompile Include="MeineUnterprogramme.c" />
     <ClCompile Include="Program.c" />
   </ItemGroup>

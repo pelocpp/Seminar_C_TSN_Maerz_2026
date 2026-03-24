@@ -345,6 +345,41 @@ nicht einfacher bekannt machen ???
 Mit speziellen Dateien:  Header-Datei.  // Endung: .h
 
 
+=============================================
+
+Feld der Länge 5:
+
+int Noten[5];
+
+Achtung: 
+
+int ersteNote = Noten[ 0 ]; 
+
+int letzteNote = Noten[ 4 ];
+
+Also, gültige Indices: 0 bis einschl. 4
+
+
+
+=====================================================
+
+Wie , welchen Speicher habe ich in 
+einem C Programm zur Verfügung ??
+
+A) Lokale Variablen
+
+Beispiel:
+
+void ZinsRechnung ()
+{
+   ...
+    double newCapital = 0;  // Lokale Variable
+
+Alle Variablen in Unterprogramm sind lokale Variablen.
+
+B) Globale Variablen
+
+Alles außerhalb von Funktionen
 
 
 
