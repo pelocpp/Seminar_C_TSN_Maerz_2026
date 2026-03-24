@@ -36,7 +36,10 @@
     <ClCompile Include="Strukturen.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WirSpielenLotto.c">
+    <ClCompile Include="Aufgabe_03_WirSpielenLotto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Anweisungen.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

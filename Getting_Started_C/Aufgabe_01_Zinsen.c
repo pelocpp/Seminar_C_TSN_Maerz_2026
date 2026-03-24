@@ -1,5 +1,5 @@
 // =====================================================================================
-// ZinsberechnungMitArray.c
+// Aufgabe_01_Zinsen.c
 // =====================================================================================
 
 #include <stdio.h>
@@ -43,7 +43,7 @@ int SummeKuerzer(int zahl1, int zahl2)
     return zahl1 + zahl2;
 }
 
-void aufgaben()
+void aufgabe_zinsen()
 {
     ZinsRechnung( 1000.0,  5.0,  10 );
 

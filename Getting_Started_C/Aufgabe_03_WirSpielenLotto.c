@@ -1,3 +1,6 @@
+// ===========================================================================
+// Aufgabe_03_WirSpielenLotto.c // Lotto Aufgabe
+// ===========================================================================
 
 #include <stdio.h>
 #include <stdlib.h>   // rand()
@@ -73,7 +76,7 @@ void lottoAusgabe()
     printf("\n");
 }
 
-void lottoSpielen()
+void aufgabe_lottoSpielen()
 {
     lottoVorbelegen();
 
@@ -89,3 +92,7 @@ void lottoSpielen()
         kugelEinfuegen(kugel);
     }
 }
+
+// ===========================================================================
+// End-of-File
+// ===========================================================================

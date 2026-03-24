@@ -125,12 +125,13 @@
   <ItemGroup>
     <ClCompile Include="Aufgabe_01_Zinsen.c" />
     <ClCompile Include="Aufgabe_02_Schaltjahr.c" />
+    <ClCompile Include="C_Anweisungen.c" />
     <ClCompile Include="Felder.c" />
     <ClCompile Include="MeineNoten.c" />
     <ClCompile Include="MeineUnterprogramme.c" />
     <ClCompile Include="Program.c" />
     <ClCompile Include="Strukturen.c" />
-    <ClCompile Include="WirSpielenLotto.c" />
+    <ClCompile Include="Aufgabe_03_WirSpielenLotto.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Readme.md" />

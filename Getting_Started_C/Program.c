@@ -1,10 +1,16 @@
-#include <stdio.h>   // Systemdateien 
+// ===========================================================================
+// Program.c // if und while Anweisung
+// ===========================================================================
+
+#include <stdio.h>           // Systemdateien 
 
 #include "Unterprogramme.h"  // selbst geschr. Dateien
 
-void main()
+int main()
 {
-    lottoSpielen();
+    aufgabe_lottoSpielen();
+
+    return 1;
 }
 
 void main_mit_eingabe()
@@ -14,7 +20,7 @@ void main_mit_eingabe()
     printf("Bitte Wert eingeben: ");
     scanf_s("%d", &n);
 
-    printHello ( 8 );
+    printHello( 8 );
 }
 
 void main_Hello_World()
@@ -29,42 +35,6 @@ void main_Hello_World()
     m = n;   // in m ist eine KOPIE des Werts aus n
 }
 
-void main_if()
-{
-    int a = 6;
-    int b = 5;
-
-    unterprogramm();
-
-    if ( a < b ) 
-    {
-        printf("a kleiner b");
-        printf("noch was anderes");
-    }
-    else
-    {
-        printf("Bedingung nicht erfuellt");
-        printf("Bedingung nicht erfuellt");
-    }
-
-    printf("Fertig.");
-}
-
-void main_while()
-{
-    int n = 0;
-
-    while (n < 5) {
-        printf("C is beautiful\n");
-        n = n + 1;
-    }
-}
-
-
-// =========
-
-//
-//n = 123
-//m = 456
-//m = n
-//n = 100
+// ===========================================================================
+// End-of-File
+// ===========================================================================

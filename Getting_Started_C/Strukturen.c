@@ -1,4 +1,8 @@
-// Strukturen
+// ===========================================================================
+// Strukturen.c // Strukturen
+// ===========================================================================
+
+#include <stdio.h>
 
 struct Time
 {
@@ -12,7 +16,7 @@ void printTime( struct Time uhrzeit)
     printf("%d:%d:%d\n", uhrzeit.hours, uhrzeit.minutes, uhrzeit.seconds);
 }
 
-void strukturen ()
+void main_strukturen()
 {
     struct Time now;
 
@@ -28,3 +32,7 @@ void strukturen ()
    // printf("%d:%d:%d", finish.hours, finish.minutes, finish.seconds);
     printTime(finish);
 }
+
+// ===========================================================================
+// End-of-File
+// ===========================================================================

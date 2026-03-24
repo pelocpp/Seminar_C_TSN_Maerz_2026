@@ -1,13 +1,15 @@
-#include <stdio.h>
-   // standard input / output
+// ===========================================================================
+// MeineUnterprogramme.c // if und while Anweisung
+// ===========================================================================
 
+#include <stdio.h> // standard input / output
 
 void unterprogramm()
 {
 }
 
 // Unterprogramm
-void printHello ( int wieOft)
+void printHello (int wieOft)
 {
     // Python for-loop
      //for i in range (0, 5, 1):
@@ -19,3 +21,7 @@ void printHello ( int wieOft)
         printf("Hello Seminar\n");
     }
 }
+
+// ===========================================================================
+// End-of-File
+// ===========================================================================

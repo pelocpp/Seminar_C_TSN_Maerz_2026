@@ -1,10 +1,12 @@
+// ===========================================================================
+// MeineNoten.c // if und while Anweisung
+// ===========================================================================
 
 // Ablage meiner Noten
 
 #include <stdio.h>   // printf
 #include <stdlib.h>  // rand
 #include <time.h>    // time
-
 
 #define AnzahlNoten 5
 
@@ -62,11 +64,11 @@ void NotenAusgeben()
     }
 }
 
-void WirSpielenSchule()
+void main_WirSpielenSchule()
 {
     // srand(123);    // s = seed  // Samen // für eine bestimmte zufällige Zahlenfolge
 
-    srand(time(NULL));    // s = seed  // Samen // für eine bestimmte zufällige Zahlenfolge
+    srand((unsigned int) time(NULL));    // s = seed  // Samen // für eine bestimmte zufällige Zahlenfolge
 
     NotenEingebenReal();
     NotenAusgeben();
@@ -74,3 +76,7 @@ void WirSpielenSchule()
     double dNote = meineDurchschnittsNote();
     printf("Durchschnittsnote: %.2f\n", dNote);
 }
+
+// ===========================================================================
+// End-of-File
+// ===========================================================================
