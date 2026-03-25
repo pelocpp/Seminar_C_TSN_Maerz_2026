@@ -22,6 +22,8 @@ void NotenEingebenReal()
         printf("Ihre %d. Note: %d\n", i + 1, note);
 
         meineNoten[i] = note;
+
+        *(meineNoten + i) = note;
     }
 }
 
@@ -31,7 +33,7 @@ void NotenEingeben()
         printf("Bitte geben Sie ihre %d. Note ein: ", i+1);
 
         int note = 0;
-        scanf_s("%d", &note);
+        scanf_s("%d", & note);
 
         meineNoten[i] = note;
     }

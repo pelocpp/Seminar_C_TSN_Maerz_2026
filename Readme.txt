@@ -11,6 +11,19 @@ Frage:  globales versus lokale Variablen
 
 // ============================================================
 
+Neuronales Netz
+
+Ein anderes Tutorial:
+
+https://github.com/pelocpp/cpp_case_studies/blob/master/MarkDown/NeuralNetwork/NeuralNetwork.md
+
+https://www.reddit.com/r/MachineLearning/comments/3mdvxv/neural_net_in_c_for_absolute_beginners_super_easy/
+
+
+
+// ============================================================
+
+
 
 https://github.com/pelocpp
 
@@ -515,3 +528,67 @@ Wo ist der Fehler ???????????????
 
 Methode der Intervallhalbierung
 
+=======================================================
+
+Speicherbereiche
+
+a) Globale Varianblen
+
+   Außerhalb von allen Funktionen // auf der obersten Ebene
+
+b) Lokale Variablen
+
+   Stack // Stapel
+
+   Füllbytes // Testbytes // Sicherheitsbytes:  CC
+
+   In Unterprogrammen 
+
+   Sind nach Verlassen des Unterprogramms weg ...
+
+   Temporäre Zwischenergebnisse
+
+
+
+c) Dynamische Variablen
+
+   Füllbytes // Testbytes // Sicherheitsbytes:  CD
+
+   Wird angelegt / erzeugt, wenn die Variable benötigt wird.
+   Wird freigegeben, wenn die Variable nicht mehr benötigt wird.
+
+   Wo:
+
+   Halde // Heap
+
+
+
+Es gibt einen void Pointer
+
+void* ptr   ==> NUR ALS ZWISCHENERGEBNIS
+
+=====================================================
+
+Studentenverwaltung:
+
+Nachname:
+
+struct Student
+{
+    char vorname [32];
+    char nachname [32];
+}
+
+struct TSN
+{
+    Student students [1000];
+}
+
+===============================================================
+
+"In C gibt es keine Arrays"
+
+===============================================================
+https://github.com/pelocpp/c_introduction/blob/master/C_Introduction/Exercises/DynamicIntArray/Exercises_DynamicIntArray.md
+
+===============================================================

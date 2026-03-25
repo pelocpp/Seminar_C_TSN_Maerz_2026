@@ -20,6 +20,8 @@ extern void main_zeiger();
 extern void main_union();
 extern void main_dynamic();
 
+extern void test_tsn();
+
 // ===========================================================================
 // End-of-File
 // ===========================================================================
