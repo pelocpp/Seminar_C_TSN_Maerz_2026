@@ -16,6 +16,10 @@ extern void aufgabe_zinsen();
 extern void aufgabe_Schaltjahr();
 extern void aufgabe_lottoSpielen();
 
+extern void main_zeiger();
+extern void main_union();
+extern void main_dynamic();
+
 // ===========================================================================
 // End-of-File
 // ===========================================================================

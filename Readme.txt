@@ -442,5 +442,76 @@ Uhrzeit:
 int uhrzeit [3];  // NO
 
 
+=======================================================
 
+Zeiger / Pointer
+
+Java, C#: Genau das will man vermeiden.
+
+C   ===>  UNIX-Betriebssystem:  Assembler // C 
+
+Datentyp für Zeiger:
+
+
+Adresse mit einem Typ wie int, float verbinden:
+
+Beipiel:
+
+0x1024 ==> wieviele Bytes
+
+int* ip;
+
+a) ip ist eine Variable für eine ADRESSE
+
+b) Weil int:  ab / an dieser Adresse gehören mir (Anwendung) 4 BYTES.
+
+
+
+
+double* ip;
+
+a) ip ist eine Variable für eine ADRESSE
+
+b) Weil double:  ab / an dieser Adresse gehören mir (Anwendung) 8 BYTES.
+
+
+
+float* ip;
+
+a) ip ist eine Variable für eine ADRESSE
+
+b) Weil float:  ab / an dieser Adresse gehören mir (Anwendung) 4 BYTES.
+
+Hmmmm, wieviele Bytes sind es denn jetzt
+
+Handbuch:  NEIN
+
+sizeof
+
+size_t: Ist wie int  // also ganzzahliger Datentyp 
+
+VORSICHT:  Keine negativen Werte: 0, 1, 2, ..............
+
+===============================================================
+
+Zeiger
+
+Zeigerarithmetik
+
+2 Operationen:
+
+i) ++, --
+
+ii) einen Offset addieren
+
+
+Whyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+Dynamische Daten
+
+=======================================================
+
+Wo ist der Fehler ???????????????
+
+Methode der Intervallhalbierung
 

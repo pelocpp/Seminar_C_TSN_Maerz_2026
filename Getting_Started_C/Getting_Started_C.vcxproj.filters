@@ -42,6 +42,12 @@
     <ClCompile Include="C_Anweisungen.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Zeiger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Readme.md" />
